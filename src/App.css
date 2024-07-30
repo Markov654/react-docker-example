@@ -1,8 +1,11 @@
+/* 
+
+background with different colors*/
 body{
   margin: 0;
   background-image: linear-gradient( rgb(216, 123, 216), yellow);
 }
-
+/* size, color, shadow to title */
 h1{
   text-align: center;
   margin-top: 50px;
@@ -28,7 +31,7 @@ li{
     
   
 }
-
+/*layout display flex*/
 
 .mql{
   background-color: rgb(3, 161, 161);
@@ -47,7 +50,7 @@ li{
   
 }
 
-
+/* animation with keyframe and animation-duration */
 @keyframes example {
   0%   {background-color: red;}
   25%  {background-color: rgb(156, 19, 4);}

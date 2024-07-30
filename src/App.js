@@ -1,4 +1,4 @@
-
+//import component and file with CSS and react 
 import React, {Component} from "react";
 import "./App.css";
 
@@ -7,7 +7,7 @@ import FetchData from "./FetchData";
 
 
 
-
+//Component export callback function 
 
 class App extends Component{
   

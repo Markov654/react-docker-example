@@ -1,3 +1,22 @@
+# Overview to react-docker-exmple
+Simple task show fetch data and export them with react.
+
+# How to build the Docker container.
+install Docker to my mashine.
+Greate react app and open with VS code.
+Greate Dockerfile.
+Filling dockerfile with instruction.
+[version - npm, WORKDIR, COPY - to copy current package, RUN, PORT - where to show you, CDM]
+
+# Configuration information
+
+ Configuration with commad line: 
+ docker build [name] image
+ and docker up
+ by commad prompt.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

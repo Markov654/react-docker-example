@@ -1,5 +1,7 @@
+//Greate react component with Hook useEffect and Hook useState
 import React, { useEffect, useState } from "react"
 import './App.css';
+
 
 function FetchData() {
   const [name,setName] = useState([]);
@@ -7,17 +9,19 @@ function FetchData() {
   useEffect(()=>{
     names()
   },[])
-
+   // Fetch data
   const names = async () => {
     const responce = await fetch('https://jsonplaceholder.typicode.com/users/');
 
     setName(await responce.json())
   }
+  // export data with JSX map metod with to parameters
+  // access object
   return(
     <div>
      
       <ol>
-
+      
         {name.map((data, index )=> {
           return(
 

@@ -1,18 +1,61 @@
+body{
+  margin: 0;
+  background-image: linear-gradient( rgb(216, 123, 216), yellow);
+}
+
 h1{
   text-align: center;
+  margin-top: 50px;
+  font-size: 2.5em;
+  text-shadow: 20px solid rgb(239, 235, 235);
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.ol{
-text-decoration: none;
+ol{
+list-style-type: none;
+display: flex;
+columns: 0;
+column-gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+
 }
+
+li{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  height: 2em;
+  color: rgb(244, 240, 225);
+    
+  
+}
+
 
 .mql{
-  background-color: aqua;
+  background-color: rgb(3, 161, 161);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px;
-  margin: 150px;
+  padding: 30px;
+  margin: 100px;
   flex-direction: column;
+  border-radius: 20px;
+  height: 40em;
+  width: 25em;
+  border: 1px solid gray;
+  animation-name: example;
+  animation-duration: 8s;
   
+}
+
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: rgb(156, 19, 4);}
+  50%  {background-color: blue;}
+  100% {background-color: rgb(15, 0, 71);}
+}
+
+b{
+  margin-left: 0;
+  color: black;
 }
